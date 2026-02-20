@@ -11,6 +11,7 @@ pacman -Syu --noconfirm \
     help2man \
     intltool \
     libdecor \
+    python   \
     rsync
 
 echo "Installing debloated packages..."
