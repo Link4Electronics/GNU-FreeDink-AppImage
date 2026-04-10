@@ -10,15 +10,13 @@ pacman -Syu --noconfirm    \
     glm                    \
     help2man               \
     intltool               \
-    libdecor               \
-    python                 \
     python-distutils-extra \
     python-setuptools      \
     rsync
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
-get-debloated-pkgs --add-common --prefer-nano
+get-debloated-pkgs --add-common --prefer-nano libdecor-mini sdl2_image-mini
 
 # Comment this out if you need an AUR package
 make-aur-package cxxtest
@@ -27,5 +25,3 @@ make-aur-package
 # If the application needs to be manually built that has to be done down here
 
 # if you also have to make nightly releases check for DEVEL_RELEASE = 1
-mkdir -p ./AppDir/share/soundfonts
-cp /usr/share/soundfonts/FluidR3_GM.sf2 ./AppDir/share/soundfonts
