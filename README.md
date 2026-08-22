@@ -3,7 +3,7 @@
 # GNU-FreeDink-AppImage 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/GNU-FreeDink-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/GNU-FreeDink-AppImage/releases/latest)
-[![CI Build Status](https://github.com//pkgforge-dev/GNU-FreeDink-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/GNU-FreeDink-AppImage/releases/latest)
+[![CI Build Status](https://github.com/pkgforge-dev/GNU-FreeDink-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/GNU-FreeDink-AppImage/releases/latest)
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/GNU-FreeDink-AppImage)](https://github.com/pkgforge-dev/GNU-FreeDink-AppImage/releases/latest)
 
 <p align="center">
